@@ -3,9 +3,11 @@
 ### Reporte: Sensor utrasónico con LCD-Tarjeta ESP32
 
 - Introducción
-Leer temperatura y humedad desde un sensor DHT22 y mostrarlas en un LCD I2C usando un ESP32.
 
-El sensor DHT22 es un dispositivo digital utilizado para medir temperatura y humedad relativa. Su combinación con la tarjeta ESP32 permite el monitoreo ambiental mediante transmisión y procesamiento de datos en tiempo real.
+Utilizar ESP32
+Medir temperatura y humedad (DHT22).
+Medir distancia mediante ultrasonido (HC-SR04).
+Mostrar la información en una pantalla LCD 16x2.
 
 - Materiales Utilizados
 
@@ -22,7 +24,7 @@ El sensor DHT22 es un dispositivo digital utilizado para medir temperatura y hum
   ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2021.14.00%20(1).jpeg)
   ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.50.01.jpeg)
 
-- Colocar el sensor DHT22 y la LCD
+- Colocar el sensor DHT22, el sensor ultrasonico y la LCD
 - Realizar la conexión correspondiente
   
   ![](     )
@@ -108,11 +110,10 @@ ADJUNTAR LAS LIBRERÍAS CORRESPONDIENTES
 
   
 - FUNCIONAMIENTO 
-El ESP32 inicializa el sensor DHT22 y el LCD.
-el ESP32 a traves del DHT22:
-Lee la temperatura (°C).
-Lee la humedad (%). 
-Imprime los valores en el LCD
+En la simulación de Wokwi se observa:
+La pantalla LCD actualiza la temperatura, humedad y distancia.
+El sensor ultrasónico responde correctamente cuando se modifica la distancia en el simulador.
+El DHT22 genera valores de temperatura y humedad típicos.
   ![]( )
    ![]( )
    ![]( )
