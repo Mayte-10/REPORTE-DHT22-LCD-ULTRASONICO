@@ -27,7 +27,7 @@ Mostrar la información en una pantalla LCD 16x2.
 - Colocar el sensor DHT22, el sensor ultrasonico y la LCD
 - Realizar la conexión correspondiente
   
-  ![](     )
+  ![](https://github.com/Mayte-10/REPORTE-DHT22-LCD-ULTRASONICO/blob/main/CONEXIONES%20Y%20MATERIAL.PNG)
 
 - Colocar el siguiente código
   
@@ -104,19 +104,18 @@ delay(2000);
 }
 ```
 ADJUNTAR LAS LIBRERÍAS CORRESPONDIENTES 
-![](      )
+![](https://github.com/Mayte-10/REPORTE-DHT22-LCD-ULTRASONICO/blob/main/LIBRERIAS.PNG)
 - COMPILAR
 ![](        )
-
   
 - FUNCIONAMIENTO 
 En la simulación de Wokwi se observa:
 La pantalla LCD actualiza la temperatura, humedad y distancia.
 El sensor ultrasónico responde correctamente cuando se modifica la distancia en el simulador.
 El DHT22 genera valores de temperatura y humedad típicos.
-  ![]( )
-   ![]( )
-   ![]( )
+  ![](https://github.com/Mayte-10/REPORTE-DHT22-LCD-ULTRASONICO/blob/main/COMPILACION%201.PNG)
+   ![](https://github.com/Mayte-10/REPORTE-DHT22-LCD-ULTRASONICO/blob/main/COMPILACION%202.PNG)
+   ![](https://github.com/Mayte-10/REPORTE-DHT22-LCD-ULTRASONICO/blob/main/COMPILACION%203.PNG)
    ![]( )
 
 
